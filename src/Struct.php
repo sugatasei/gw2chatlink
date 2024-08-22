@@ -170,7 +170,7 @@ class Struct
         return $this;
     }
 
-    public function writeDynamicArray($values, int $bytesPerValue): static
+    public function writeDynamicArray(array $values, int $bytesPerValue): static
     {
         $this->write1Byte(count($values));
 

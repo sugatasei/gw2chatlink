@@ -164,8 +164,8 @@ class BuildLink extends AbstractLink
         }
 
         // SOTO
-        $link->selectedWeapons = $struct->readDynamicArray(2);
-        $link->selectedSkillVariants = $struct->readDynamicArray(4);
+        $link->selectedWeapons = $struct->readDynamicArray(2) ?? [];
+        $link->selectedSkillVariants = $struct->readDynamicArray(4) ?? [];
 
         return $link;
     }
