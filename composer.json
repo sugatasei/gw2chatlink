@@ -1,0 +1,17 @@
+{
+    "name": "sugatasei/gw2chatlink",
+    "version": "0.0.1",
+    "description": "Encode and decode Guild Wars 2 chat links",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Froehly",
+            "email": "mathieu.froehly@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ChatLink\\": "src"
+        }
+    }
+}
